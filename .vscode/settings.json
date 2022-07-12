@@ -86,5 +86,10 @@
     // When opening a file, `editor.tabSize` and `editor.insertSpaces`
     // will be detected based on the file contents. Set to false to keep
     // the values you've explicitly set, above.
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    // 关闭 snippet 补全
+    "editor.snippetSuggestions": "none",
+    // 函数参数补全是否抑制自动提示
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.wordBasedSuggestions": true,
 }
